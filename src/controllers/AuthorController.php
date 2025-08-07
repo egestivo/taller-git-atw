@@ -86,6 +86,7 @@ class AuthorController {
             'lastName' => $author->getLastName(),
             'username' => $author->getUsername(),
             'email' => $author->getEmail(),
+            'password' => $author->getPassword(),
             'orcid' => $author->getOrcid(),
             'afiliation' => $author->getAfiliation()
         ];
